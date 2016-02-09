@@ -1,0 +1,31 @@
+---
+title: "Элементы эконометрики 2015-2016"
+date: "`r format(Sys.time(), '%d.%m.%Y')`"
+output: html_document
+lang: russian
+---
+
+
+# Элементы эконометрики
+
+Курс проходит по вторник на Шаболовке 28, 5408 с 15:10 до 18:00.
+
+## Ссылки
+
+* [Про R](https://github.com/bdemeshev/em301/wiki/R)
+* [Цикл заметок по R](http://bdemeshev.github.io/r_cycle/)
+* [Бакалаврский курс](http://bdemeshev.github.io/em301/)
+* [Видео-записи](http://www.youtube.com/playlist?list=PL1poMUvVlAqeWdKzoEDPtCfcBoSxKEL59)
+
+## Логи семинаров 
+
+#### Семинар 1. 09 февраля 2016
+* Две парадигмы: детерминистические и стохастические регрессоры
+* Состоятельность оценок в детерминистическом случае
+* [Six ways to sum a series](http://scipp.ucsc.edu/~haber/ph116A/Sixways.pdf)
+
+
+
+
+## Лицензия
+Созданные мной для данного курса материалы распространяются по лицензии [Creative Commons Attribution-NonCommercial-ShareAlike](http://creativecommons.org/licenses/by-nc-sa/3.0/deed.ru)
