@@ -1,0 +1,95 @@
+---
+title: "Мега-исследование"
+author: "Boris Demeshev"
+date: "22 February 2016"
+output:
+  html_document: default
+  pdf_document:
+    keep_tex: yes
+  word_document: default
+lang: russian
+---
+
+```{r, echo = FALSE}
+library("knitr")
+opts_chunk$set(warning = FALSE,
+               message = FALSE,
+               echo = TRUE)
+```
+
+
+В нашем исследовании мы возьмём курс акций гугла за последние 100 дней. И что-нибудь с ним сделаем.
+
+
+```{r}
+library("quantmod")
+getSymbols(Symbols = "GOOG", 
+           from = "2015-01-01", 
+           to = "2016-02-21",
+           src = "yahoo")
+head(GOOG)
+```
+
+Построим график 
+
+```{r}
+plot(GOOG)
+```
+
+За скачанный период средняя цена акций гугла равна `r mean(GOOG$GOOG.Close)`.
+
+По последним данным косинус трёх равен `r cos(3)`.
+
+Тут карта для красоты:
+```{r, eval = FALSE}
+library(leaflet)
+leaflet() %>% addTiles()
+```
+
+\[
+x^2 + y^2 = c^2
+\]
+
+Построим ещё график :)
+```{r}
+library("forecast")
+library("lmtest")
+g <- GOOG$GOOG.Close
+tsdisplay(g)
+```
+
+
+Оценим модель:
+```{r}
+
+ar2 <- Arima(g, order = c(2, 0, 0))
+ar1 <- Arima(g, order = c(1, 0, 0))
+lrtest(ar1, ar2)
+```
+
+Построим прогнозы:
+
+```{r}
+table_pred <- as.data.frame(forecast(ar2, h = 5))
+table_pred
+```
+
+Украшательства:
+
+```{r, results='asis', eval = FALSE}
+library(DT)
+datatable(table_pred)
+```
+
+
+```{r, results='asis'}
+library(knitr)
+kable(table_pred)
+```
+
+
+
+
+
+
+
