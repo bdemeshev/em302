@@ -1,2 +1,3 @@
 # em302
-elements of econometrics 
+
+Elements of econometrics. [Webpage](http://bdemeshev.github.io/em302/) of the course.
