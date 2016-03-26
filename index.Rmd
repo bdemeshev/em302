@@ -10,12 +10,26 @@ lang: russian
 
 ## Ссылки
 
+* [github-репозиторий](https://github.com/bdemeshev/em302) курса 
 * [Про R](https://github.com/bdemeshev/em301/wiki/R)
 * [Цикл заметок по R](http://bdemeshev.github.io/r_cycle/)
-* [Бакалаврский курс](http://bdemeshev.github.io/em301/)
+* [Бакалаврский курс метрики](http://bdemeshev.github.io/em301/)
 * [Видео-записи](http://www.youtube.com/playlist?list=PL1poMUvVlAqeWdKzoEDPtCfcBoSxKEL59)
 
 ## Логи семинаров 
+
+
+#### Семинар 6. 22 марта 2016
+
+* Решение задач олимпиады: вариант 2015, задачи 1 и 2: [ipynb](https://github.com/bdemeshev/em302/raw/master/olymp_log/meet_01_21_march_2016.ipynb), [pdf](https://github.com/bdemeshev/em302/raw/master/olymp_log/meet_01_21_march_2016.pdf) 
+
+#### Семинар 5. 15 марта 2016
+
+* [Краткое введение в R](https://github.com/bdemeshev/em302/raw/master/scripts/lab_01_intro.R): чтение данных, обычная и квантильная регрессии
+
+#### Семинар 4. 14 марта 2016
+
+* математические ожидания и ковариационные матрицы для случайных векторов
 
 #### Семинар 3. 01 марта 2016
 * условная дисперсия
@@ -24,7 +38,7 @@ lang: russian
 * МНК в матричной форме записи
 * Матрица-шляпница $H=X(X'X)^{-1}X'$
 
-#### Семинар 2. 16 марта 2016
+#### Семинар 2. 16 февраля 2016
 * Доказательство формулы для $\sum_{i=1}^{\infty} \frac{1}{i^2}$
 * Две геометрии случайных величин
 * условное математическое ожидание как проекция
@@ -34,6 +48,13 @@ lang: russian
 * Состоятельность оценок в детерминистическом случае
 * [Six ways to sum a series](http://scipp.ucsc.edu/~haber/ph116A/Sixways.pdf)
 
+## Три вводных семинара от курса про финансы в R
+
+* Семинар 3. [Байесовские методы в R](https://github.com/bdemeshev/em302/raw/master/r_financial/sem_03.R)
+
+* Семинар 2. [R + markdown](https://github.com/bdemeshev/em302/raw/master/r_financial/sem_02.Rmd)
+
+* Семинар 1. [Введение в R](https://github.com/bdemeshev/em302/raw/master/r_financial/sem_01.R)
 
 
 
