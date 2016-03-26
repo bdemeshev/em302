@@ -30,6 +30,8 @@ lang: russian
 #### Семинар 4. 14 марта 2016
 
 * математические ожидания и ковариационные матрицы для случайных векторов
+* Скан заметок-1: [стр. 1](https://github.com/bdemeshev/em302/raw/master/sem_04/sem_v1_p1.jpg), [стр. 2](https://github.com/bdemeshev/em302/raw/master/sem_04/sem_v1_p2.jpg), [стр. 3](https://github.com/bdemeshev/em302/raw/master/sem_04/sem_v1_p3.jpg)
+* Скан заметок-2: [стр. 1](https://github.com/bdemeshev/em302/raw/master/sem_04/sem_v2_p1.jpg), [стр. 2](https://github.com/bdemeshev/em302/raw/master/sem_04/sem_v2_p2.jpg), [стр. 3](https://github.com/bdemeshev/em302/raw/master/sem_04/sem_v2_p3.jpg)
 
 #### Семинар 3. 01 марта 2016
 * условная дисперсия
